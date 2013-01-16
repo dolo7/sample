@@ -30,6 +30,7 @@ class ItemSupplyLocalDS extends DataSource {
     public ItemSupplyLocalDS(String id) {
 
         //setID(id);poli
+        //fix from iss53
         DataSourceIntegerField pkField = new DataSourceIntegerField("itemID");
         pkField.setHidden(true);
         pkField.setPrimaryKey(true);
