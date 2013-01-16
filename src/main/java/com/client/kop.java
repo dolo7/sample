@@ -1,29 +1,17 @@
 package com.client;
 
-import com.google.gwt.user.client.ui.Grid;
-import com.shared.FieldVerifier;
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
-import com.smartgwt.client.core.DataClass;
 import com.smartgwt.client.data.*;
 import com.smartgwt.client.data.fields.*;
-import com.smartgwt.client.types.ListGridFieldType;
 import com.smartgwt.client.widgets.IButton;
-import com.smartgwt.client.widgets.Label;
 import com.smartgwt.client.widgets.events.ClickEvent;
 import com.smartgwt.client.widgets.events.ClickHandler;
-import com.smartgwt.client.widgets.form.validator.FloatPrecisionValidator;
-import com.smartgwt.client.widgets.form.validator.FloatRangeValidator;
 import com.smartgwt.client.widgets.grid.ListGrid;
 import com.smartgwt.client.widgets.grid.ListGridField;
-import com.smartgwt.client.widgets.grid.ListGridRecord;
 import com.smartgwt.client.widgets.layout.VLayout;
-
-import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
-
-
 
 
 class ItemSupplyLocalDS extends DataSource {
