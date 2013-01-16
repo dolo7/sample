@@ -62,12 +62,12 @@
   </dependencies>
 
   <build>
-    <!-- Generate compiled stuff in the folder used for developing mode -->
+    <!-- baz -->
     <outputDirectory>${webappDirectory}/WEB-INF/classes</outputDirectory>
 
     <plugins>
 
-      <!-- GWT Maven Plugin -->
+      <!-- GWT Maven foo Plugin -->
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>gwt-maven-plugin</artifactId>
@@ -120,4 +120,5 @@
     </plugins>
   </build>
 
+    <!-- bar -->
 </project>
